@@ -14,8 +14,8 @@ new_values.csv – с новыми признаками;
 - stacking_model.pkl – стекинг моделей Decision Tree Classifier, Linear SVC, KNeighbors Classifier. Для объединения базовых оценок использована модель Logistic Regression;
 5. reports – содержит отчёт по проведённому исследованию;
 6. scripts – содержит вспомогательные Python-скрипты:
-- plot_script – содержит функции для визуализации данных:
-def plot_distribution( df , var , target , **kwargs ) – функция для рассмотрения взаимосвязи между признаками и качеством вина;
-def plot_correlation_map( df ) – функция для построения тепловой карты корреляции;
-def plot_variable_importance( X , y )- функция для определения важности признаков;
+- plot_script – содержит функции для визуализации данных:   
+def plot_distribution( df , var , target , **kwargs ) – функция для рассмотрения взаимосвязи между признаками и качеством вина;   
+def plot_correlation_map( df ) – функция для построения тепловой карты корреляции;   
+def plot_variable_importance( X , y )- функция для определения важности признаков;   
 7. notebooks - содержит JupyterNotebook.
